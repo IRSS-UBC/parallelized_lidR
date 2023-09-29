@@ -18,11 +18,7 @@ clean_las(las_fname = "NBGOV8692_train.las",
           in_dir = in_dir, 
           out_dir = out_dir)
 
-#Run function in parallel 
-
-#Get start time for lidar processing
-lidar_start = Sys.time()
-
+#Vectorize function
 clean_las_parallel <- function(chunk, in_dir, out_dir, clean_las_fn_path) {
   source(clean_las_fn_path)
   out_chunk <- lapply(chunk, function(las_fname) {
