@@ -2,7 +2,7 @@
 
 ![parallel_vs_serial](parallel_vs_serial_computing.png)
 
-Simple example of how run tasks with the lidR package in parallel. This is particularly useful in situations where you need to apply functions to small disconnected las/laz files (i.e., not a full tile processed as a las catalog).
+Simple example of how to perform a function in parallel with the [lidR](https://r-lidar.github.io/lidRbook/) package. This is particularly useful in situations where you need to apply functions to small disconnected las/laz files (i.e., not a full tile processed as a las catalog).
 
 **clean_las.R** is the function you want to parallelize
 
