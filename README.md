@@ -3,6 +3,7 @@
 Disclaimer: This code is presented as an alternative method to the built in parallelization offered in the lidR package. There are several methods in the LAS catalog processing engine that support parallelization that are described in the following links:
 
 https://r-lidar.github.io/lidRbook/engine.html
+
 https://tgoodbody.github.io/lidRtutorial/08_engine2.html
 
 Specifically for working with clipped plot point clouds:
